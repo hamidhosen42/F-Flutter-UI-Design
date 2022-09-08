@@ -2,6 +2,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_design/Modern%20Login%20UI/Modern%20Login%20UI.dart';
 
+import 'Create Login UI/Create Login UI.dart';
+import 'Dark Mode/Dark Mode.dart';
+
 void main(List<String> args) {
   runApp(MyApp());
 }
@@ -12,11 +15,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        primarySwatch: Colors.indigo,
-      ),
+      // theme: ThemeData(
+      //   primarySwatch: Colors.indigo,
+      // ),
+
+      // ----------Dark Mode---------------
+      themeMode: ThemeMode.dark,
+      darkTheme: ThemeData(brightness: Brightness.dark),
+      // ----------Dark Mode End ----------
       debugShowCheckedModeBanner: false,
-      home: LoginUI()
+      // home: LoginUI()
+      // home: CLoginUI(),
+      home: DarkMode(),
     );
   }
 }

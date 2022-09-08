@@ -1,8 +1,9 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_design/Modern%20Login%20UI/Modern%20Login%20UI.dart';
 
+import 'package:flutter_ui_design/Modern%20Login%20UI/Modern%20Login%20UI.dart';
 import 'Create Login UI/Create Login UI.dart';
+import 'Custom Navigation Drawer/Custom Navigation Drawer.dart';
 import 'Dark Mode/Dark Mode.dart';
 
 void main(List<String> args) {
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       // home: LoginUI()
       // home: CLoginUI(),
-      home: DarkMode(),
+      // home: DarkMode(),
+      home: CusNavDrawer(),
     );
   }
 }

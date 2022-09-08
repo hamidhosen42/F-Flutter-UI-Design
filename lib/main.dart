@@ -6,6 +6,7 @@ import 'Bottom Navigation Bar/Bottom Navigation Bar.dart';
 import 'Create Login UI/Create Login UI.dart';
 import 'Custom Navigation Drawer/Custom Navigation Drawer.dart';
 import 'Dark Mode/Dark Mode.dart';
+import 'List Cards/List Cards.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -30,7 +31,8 @@ class MyApp extends StatelessWidget {
       // home: CLoginUI(),
       // home: DarkMode(),
       // home: CusNavDrawer(),
-      home: ButtonNavBar(),
+      // home: ButtonNavBar(),
+      home: ListCard(),
     );
   }
 }

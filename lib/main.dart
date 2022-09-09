@@ -11,6 +11,7 @@ import 'Dark Mode/Dark Mode.dart';
 import 'List Cards/List Cards.dart';
 import 'Modern Login UI/Modern Login UI.dart';
 import 'Set Background Image/Set Background Image.dart';
+import 'Splash Screen/Splash Screen.dart';
 import 'Tabs/Tabs.dart';
 
 void main(List<String> args) {
@@ -42,7 +43,8 @@ class MyApp extends StatelessWidget {
       // home: CustomDialog(),
       // home: TabsBar(),
       // home: CarouselSliders(),
-      home:BacImage(),
+      // home:BacImage(),
+      home: SplashScreen(),
     );
   }
 }

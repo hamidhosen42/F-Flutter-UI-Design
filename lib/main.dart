@@ -9,6 +9,7 @@ import 'Custom Navigation Drawer/Custom Navigation Drawer.dart';
 import 'Dark Mode/Dark Mode.dart';
 import 'List Cards/List Cards.dart';
 import 'Modern Login UI/Modern Login UI.dart';
+import 'Tabs/Tabs.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -36,7 +37,8 @@ class MyApp extends StatelessWidget {
       // home: ButtonNavBar(),
       // home: ListCard(),
       // home: BottomBar(),
-      home: CustomDialog(),
+      // home: CustomDialog(),
+      home: TabsBar(),
     );
   }
 }

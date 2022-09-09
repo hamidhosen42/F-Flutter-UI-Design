@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 import 'Bottom App Bar/Bottom App Bar.dart';
+import 'Bottom Navigation Bar With Multiple Pages/Bottom Navigation Bar With Multiple Pages.dart';
 import 'Bottom Navigation Bar/Bottom Navigation Bar.dart';
 import 'Carousel Slider/Carousel Slider.dart';
 import 'Create Login UI/Create Login UI.dart';
@@ -44,7 +45,8 @@ class MyApp extends StatelessWidget {
       // home: TabsBar(),
       // home: CarouselSliders(),
       // home:BacImage(),
-      home: SplashScreen(),
+      // home: SplashScreen(),
+      home: Bottom_Nav(),
     );
   }
 }

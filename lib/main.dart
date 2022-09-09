@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_ui_design/Modern%20Login%20UI/Modern%20Login%20UI.dart';
+import 'Bottom App Bar/Bottom App Bar.dart';
 import 'Bottom Navigation Bar/Bottom Navigation Bar.dart';
 import 'Create Login UI/Create Login UI.dart';
 import 'Custom Navigation Drawer/Custom Navigation Drawer.dart';
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
       // home: DarkMode(),
       // home: CusNavDrawer(),
       // home: ButtonNavBar(),
-      home: ListCard(),
+      // home: ListCard(),
+      home: BottomBar(),
     );
   }
 }

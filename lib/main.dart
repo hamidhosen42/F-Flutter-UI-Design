@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_design/Awesome%20Food%20Card/Awesome%20Food%20Card.dart';
 
 import 'Bottom App Bar/Bottom App Bar.dart';
 import 'Bottom Navigation Bar With Multiple Pages/Bottom Navigation Bar With Multiple Pages.dart';
@@ -48,7 +49,8 @@ class MyApp extends StatelessWidget {
       // home:BacImage(),
       // home: SplashScreen(),
       // home: Bottom_Nav(),
-      home: TodoList(),
+      // home: TodoList(),
+      home: FoodCard(),
     );
   }
 }

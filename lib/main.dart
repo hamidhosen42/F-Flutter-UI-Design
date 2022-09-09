@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'Bottom App Bar/Bottom App Bar.dart';
 import 'Bottom Navigation Bar/Bottom Navigation Bar.dart';
+import 'Carousel Slider/Carousel Slider.dart';
 import 'Create Login UI/Create Login UI.dart';
 import 'Custom Dialog Box/Custom Dialog Box.dart';
 import 'Custom Navigation Drawer/Custom Navigation Drawer.dart';
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
       // home: ListCard(),
       // home: BottomBar(),
       // home: CustomDialog(),
-      home: TabsBar(),
+      // home: TabsBar(),
+      home: CarouselSliders(),
     );
   }
 }

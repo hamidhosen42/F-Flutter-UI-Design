@@ -9,7 +9,11 @@ class BottomBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Bottom App Bar",style: TextStyle(fontFamily: "Cursive",fontWeight: FontWeight.bold,fontSize: 30),),
+        title: Text(
+          "Bottom App Bar",
+          style: TextStyle(
+              fontFamily: "Cursive", fontWeight: FontWeight.bold, fontSize: 30),
+        ),
         backgroundColor: Colors.red,
       ),
       body: Center(
@@ -27,14 +31,27 @@ class BottomBar extends StatelessWidget {
         color: Colors.red,
         child: Row(
           children: [
-            IconButton(onPressed: (){}, icon: Icon(Icons.home),color: Colors.white,),
+            IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.home),
+              color: Colors.white,
+            ),
             Spacer(),
-            IconButton(onPressed: (){}, icon: Icon(Icons.search),color: Colors.white,),
-            IconButton(onPressed: (){}, icon: Icon(Icons.more_vert),color: Colors.white,),
+            IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.search),
+              color: Colors.white,
+            ),
+            IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.more_vert),
+              color: Colors.white,
+            ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.red,
         onPressed: () {},
         child: Icon(Icons.add),
         focusColor: Colors.red,

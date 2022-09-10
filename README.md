@@ -1,4 +1,14 @@
-| Flutter UI Design | Image | Image | Image |
+| Flutter UI Design | Image |
 | --- |  --- | --- | --- |
-| Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> | | |
-| Awesome Food Card | ![img-1](https://user-images.githubusercontent.com/68488154/189466779-c3fa2b94-e354-4e36-85db-91ae5c07bb26.png) | | |
+| Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> |
+| Bottom App Bar | <img src="./assets/Bottom App Bar/img-1.png" width=150> |
+| Bottom Navigation Bar | <img src="./assets/Bottom Navigation Bar/img-1.png" width=150> |
+| Bottom Navigation Bar With Multiple Pages | <img src="./assets/Bottom Navigation Bar With Multiple Pages/img-1.png" width=150><img src="./assets/Bottom Navigation Bar With Multiple Pages/img-2.png" width=150> |
+| Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> |
+| Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> |
+| Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> |
+| Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> |
+| Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> |
+| Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> |
+| Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> |
+| Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> |

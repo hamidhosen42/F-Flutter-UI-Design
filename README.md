@@ -1,3 +1,9 @@
+### Flutter packages:
+  carousel_slider: ^4.1.1
+  bottom_navy_bar: ^6.0.0
+  flutter_rating_bar: ^4.0.1
+  introduction_screen: ^3.0.2
+
 | Flutter UI Design | Image |
 | --- |  --- |
 | Awesome Food Card | <img src="./assets/Awesome Food Card/img-1.png" width=150> |
